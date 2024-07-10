@@ -147,3 +147,125 @@ main section {
     opacity: 0.7;
     cursor: pointer;
 }
+
+
+/* inspiration section style  */
+.inspiration{
+    text-align: center;
+}
+.video{
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    padding: 32px;
+}
+.inspiration iframe{
+    width: 1150px;
+    height: 614px;
+    border-radius: 16px;
+}
+
+/* target section style  */
+.target{
+    text-align: center;
+}
+.current_target{
+    margin-bottom: 100px;
+}
+.target_items{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    gap: 50px;
+}
+.target_items .item-1{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+    padding: 40px;
+}
+.target_items .item-2{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+    padding: 40px;
+}
+.target_items .item-3{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+    padding: 40px;
+}
+.target_items img{
+    margin-bottom: 24px;
+}
+.target_items a, .next_target_container a{
+    text-decoration: underline;
+    color: rgb(13, 19, 33);
+    font-weight: bold;
+    font-size: 16px;
+}
+.next_target_container{
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    gap: 25px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin-bottom: 25px;
+}
+.next_target_content{
+    text-align: left;
+}
+
+
+/* support section style  */
+.support{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px 48px;
+}
+.support h2{
+    color: white;
+}
+.support p{
+    font-size: 16px;
+    color: white;
+    line-height: 26px;
+    opacity: 0.7;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    padding: 0px 200px;
+}
+.support .feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.support .input{
+    background-color: white;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    padding: 20px 215px 20px 20px;
+    border: none;
+}
+.support button{
+    background-color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 17px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* footer section style  */
+.footer{
+    border-radius: 16px 16px 0px 0px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 32px 150px;
+}
